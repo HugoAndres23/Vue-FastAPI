@@ -17,7 +17,7 @@ EXPOSE 8080
 
 #Build the Vue.js application to the production mode to dist folder
 # here also if you use npm then npm run build
-CMD ["npm", "run", "serve"]
+CMD ["npm", "run", "build"]
 
 # # use the lighweight Nignx image from the previus state to the nginx container
 # FROM nginx:stable-alpine as production-stage
